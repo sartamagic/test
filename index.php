@@ -22,7 +22,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand" href="#">Лабораторная №2</a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
@@ -43,8 +43,8 @@
             <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
           </p>
           <div class="jumbotron">
-            <h1>Hello, world!</h1>
-            <p>This is an example to show the potential of an offcanvas layout pattern in Bootstrap. Try some responsive-range viewport sizes to see it in action.</p>
+            <h1>Ветвление в Git</h1>
+            <p>Разработчики:<br />Калашников Алексей ЦИСТ....?<br />Гайдамакина Диана ЦИСТбв-31</p>
           </div>
           <div class="row">
             <div class="col-6 col-sm-6 col-lg-4">
@@ -99,7 +99,7 @@
       <hr>
 
       <footer>
-        <p>&copy; Company 2013</p>
+        <p>&copy; УлГТУ ИВК 2013</p>
       </footer>
 
     </div><!--/.container-->
