@@ -78,8 +78,8 @@
         <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
           <div class="list-group">
             <a href="#" class="list-group-item active"><?php require_once 'modules/index.php'?></a>
+            <a href="#" class="list-group-item"><?php require_once 'modules/page1.php'?></a>
             <a href="#" class="list-group-item"><?php require_once 'modules/page2.php'?></a>
-            <a href="#" class="list-group-item"><?php require_once 'modules/page3.php'?></a>
           </div>
         </div><!--/span-->
       </div><!--/row-->
