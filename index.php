@@ -44,38 +44,33 @@
           </p>
           <div class="jumbotron">
             <h1>Ветвление в Git</h1>
-            <p>Разработчики:<br />Калашников Алексей ЦИСТ....?<br />Гайдамакина Диана ЦИСТбв-31</p>
+            <p>Разработчики:<br />Калашников Алексей ЦИСТбвс-21<br />Гайдамакина Диана ЦИСТбв-31</p>
           </div>
           <div class="row">
             <div class="col-6 col-sm-6 col-lg-4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+              <h2>Главные ветви</h2>
+              <p>Ядро модели разработки не отличается от большинства существующих моделей. Центральный репозиторий содержит две главные ветки, существующие всё время.</p>
+              <p><a class="btn btn-default" href="#" role="button">Смотреть детали..&raquo;</a></p>
             </div><!--/span-->
             <div class="col-6 col-sm-6 col-lg-4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+              <h2>Вспомогательные ветви</h2>
+              <p>Помимо главных ветвей master и develop, наша модель разработки содержит некоторое количество типов вспомогательных ветвей, которые используются для распараллеливания разработки между членами команды, для упрощения внедрения нового функционала (features), для подготовки релизов и для быстрого исправления проблем в производственной версии приложения. В отличие от главный ветвей, эти ветви всегда имеют ограниченный срок жизни. Каждая из них в конечном итоге рано или поздно удаляется.</p>
+              <p><a class="btn btn-default" href="#" role="button">Смотреть детали.. &raquo;</a></p>
             </div><!--/span-->
             <div class="col-6 col-sm-6 col-lg-4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+              <h2>Ветви функциональностей</h2>
+              <p>Ветви функциональностей (feature branches), также называемые иногда тематическими ветвями (topic branches), используются для разработки новых функций, которые должны появиться в текущем или будущем релизах. При начале работы над функциональностью (фичей) может быть ещё неизвестно, в какой именно релиз она будет добавлена. Смысл существования ветви функциональности (feature branch) состоит в том, что она живёт так долго, сколько продолжается разработка данной функциональности (фичи). </p>
+              <p><a class="btn btn-default" href="#" role="button">Смотреть детали.. &raquo;</a></p>
             </div><!--/span-->
             <div class="col-6 col-sm-6 col-lg-4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+              <h2>Ветви релизов</h2>
+              <p>Ветви релизов (release branches) используются для подготовки к выпуску новых версий продукта. Они позволяют расставить финальные точки над i перед выпуском новой версии. Кроме того, в них можно добавлять минорные исправления, а также подготавливать метаданные для очередного релиза (номер версии, дата сборки и т.д.). Когда вся эта работа выносится в ветвь релизов, главная ветвь разработки (develop) очищается для добавления последующих фич (которые войдут в следующий большой релиз).</p>
+              <p><a class="btn btn-default" href="#" role="button">Смотреть детали.. &raquo;</a></p>
             </div><!--/span-->
             <div class="col-6 col-sm-6 col-lg-4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-            </div><!--/span-->
-            <div class="col-6 col-sm-6 col-lg-4">
-              <h2>Heading</h2>
-              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+              <h2>Ветви исправлений</h2>
+              <p>Ветви для исправлений (hotfix branches) весьма похожи на ветви релизов (release branches), так как они тоже используются для подготовки новых выпусков продукта, разве лишь незапланированных. Они порождаются необходимостью немедленно исправить нежелательное поведение производственной версии продукта. Когда в производственной версии находится баг, требующий немедленного исправления, из соответствующего данной версии тега главной ветви (master) порождается новая ветвь для работы над исправлением.</p>
+              <p><a class="btn btn-default" href="#" role="button">Смотреть детали.. &raquo;</a></p>
             </div><!--/span-->
           </div><!--/row-->
         </div><!--/span-->
@@ -83,8 +78,8 @@
         <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
           <div class="list-group">
             <a href="#" class="list-group-item active"><?php require_once 'modules/index.php'?></a>
-            <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
+            <a href="#" class="list-group-item"><?php require_once 'modules/page2.php'?></a>
+            <a href="#" class="list-group-item"><?php require_once 'modules/page3.php'?></a>
           </div>
         </div><!--/span-->
       </div><!--/row-->
